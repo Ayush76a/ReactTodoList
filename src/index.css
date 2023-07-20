@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  background-color: #c3cbdc;
+  background-image: linear-gradient(147deg, #c3cbdc 0%, #edf1f4 74%);
+  
+  margin-top: 1.2%;
+  padding: auto;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container{
+  width: 38%;
+  height: 650px;
+  margin: auto;
+  border: white solid 10px;
+  border-style:ridge;
+  background-color: #c2eaba;
+  background-image: linear-gradient(319deg, #c2eaba 0%, #c5f4e0 37%, #efc2cf 100%);
+  border-radius: 2%;
+  text-align: center;
+}
+
+.header{
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 500;
+  background-color:white;
+  color: black;
+  margin: 20px 0;
+}
+
+.textIn{
+  width: 55%;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: auto;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.plusIcon{
+  font-size: 1.6rem;
+  margin-left: 12px;
+  padding-top: 2px;
+  color: rgb(45, 193, 45);
+}
+.plusIcon:hover{
+  color: rgb(19, 227, 19);
+  
+}
+
+.binIcon{
+  
+  margin-right: 19px;
+  font-size: 1rem;
+}
+
+.binIcon:hover{
+  margin-right: 19px;
+  font-size: 1.1rem;
+  background-color: #ff6262;
+}
+
+.ListData{
+  margin-top: 35px;
+  text-align: left;
+  padding-left: 18%;
+  font-size: 1.2rem;
+  font-weight: 450;
+}
+
+.delAll{
+  background-color: #0b0b0b;
+  color:white;
+  padding: 6px;
+  font-size: larger;
+  opacity: 0.8;
+  display: flex;
+  margin: auto;
+  margin-top: 10px;
+}
+.delAll:hover{
+  background-color: #0b0b0b;
+  color:red;
+  opacity: 1;
+  border:solid rgb(210, 99, 99) 3px;
+}
