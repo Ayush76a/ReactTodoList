@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 
+
 const TodoList = () => {
 
     // variable and its fucntion to handle the task entered in the input box
@@ -19,6 +20,7 @@ const TodoList = () => {
       setList((List)=>{
         const updatedList = setList([...List, task]);
         setTask("");
+
         return updatedList;
         // now the variable has been added after clicking on + button 
         // then now, empty the input box
