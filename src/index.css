@@ -61,7 +61,8 @@ code {
 }
 
 .binIcon{
-  
+  background-color: #343030;
+  border-radius: 8%;
   margin-right: 19px;
   font-size: 1rem;
 }
@@ -69,7 +70,7 @@ code {
 .binIcon:hover{
   margin-right: 19px;
   font-size: 1.1rem;
-  background-color: #ff6262;
+  background-color: #f43737;
 }
 
 .ListData{

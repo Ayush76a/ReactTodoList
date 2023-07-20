@@ -55,7 +55,7 @@ const TodoList = () => {
                 return (
                     <>
                         <p className='individualData' key={i}>   
-                        <button className='binIcon' onClick={ ()=>deleteTask(i) }>⚔️</button>  
+                        <button className='binIcon' onClick={ ()=>deleteTask(i) }>💀</button>  
                         {val}
                         </p>
                     </>
